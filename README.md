@@ -1,8 +1,6 @@
-# React + Vite
+The Hangman
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This is a version of the game known as The Hangman. You have to guess the word that the app gives to you.
+You have 7 tries. If you fails them you lose the game.
+If you guess the word you earn 10 points, in the other case you lose 10 points.
+The game was made using ReactJS with Vite and using Redux Toolkit to manage the globla state.
